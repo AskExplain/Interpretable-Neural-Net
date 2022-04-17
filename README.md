@@ -1,6 +1,9 @@
 # Interpretable-Neural-Net
 Inspiration for a 1 layer interpretable neural net with a single linear mixed form layer for signal extraction
 
+
+## Some properties and explanations
+
 The model below explains more about the idea - for a single linear mixed form layer, it is essentially the fixed part of the model, that is
 
 Y a = X b
