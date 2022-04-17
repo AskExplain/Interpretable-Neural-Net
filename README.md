@@ -18,5 +18,5 @@ However, given it is a neural network layer, the "layer model" only learns a dec
 
 Essentially, linear mixed forms find a latent component Z, followed by a learnable filter set b
 
-Here, X b is equivalent to the latent component multiplied by the covariance of the filters b b_transpose
+Here, X b is equivalent to the latent component multiplied by the covariance of the filters b_transpose b
 
