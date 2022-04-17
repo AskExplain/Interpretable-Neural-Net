@@ -8,7 +8,7 @@ The model below explains more about the idea - for a single linear mixed form la
 
 Y a = X b
 
-Where Y are the label responses to be predicted while X is a form of convolutions applied to the observed data (e.g. images)
+Where Y are the label responses to be predicted while X is the observed data (e.g. convolutions applied to images)
 
 However, given it is a neural network layer, the "layer model" only learns a decomposition of X - in such a way that it fits the following properties:
 
