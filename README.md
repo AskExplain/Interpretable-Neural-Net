@@ -8,7 +8,7 @@ The model below explains more about the idea - for a single linear mixed form la
 
 Y a = X b
 
-Where Y is the label responses to be predicted, and X is the observed data (e.g. images)
+Where Y are the label responses to be predicted, and X is the observed data (e.g. images)
 
 However, given it is a neural network layer, the "layer model" only learns a decomposition of X - in such a way that it fits the following properties:
 
@@ -16,7 +16,7 @@ However, given it is a neural network layer, the "layer model" only learns a dec
 ![the single layer model](https://raw.githubusercontent.com/AskExplain/Interpretable-Neural-Net/main/model.png)
 
 
-Essentially, it finds a latent component Z, followed by a learnable filter set b
+Essentially, linear mixed forms find a latent component Z, followed by a learnable filter set b
 
 Here, X b is equivalent to the latent component multiplied by the covariance of the filters b b_transpose
 
