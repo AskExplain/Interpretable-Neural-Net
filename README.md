@@ -32,6 +32,6 @@ Notice that the latent components Z is now equivalent to X b which is equivalent
 
 The loss function given X, which here are the convoluted features along with the linear weights b can now be expressed along with the labels Y in the loss function:
 
-Cross Entropy (Y, X) + Mean Squared Error (X b, X b (b_transpose b) )
+![the single layer loss function](https://raw.githubusercontent.com/AskExplain/Interpretable-Neural-Net/main/loss_function.png)
 
 
