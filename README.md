@@ -26,7 +26,7 @@ Here, X b is equivalent to the latent component multiplied by the covariance of 
 
 Based on orthgonality, it is possible to reduce the total computations of the summary layer proposed above. Rather than computing an inverse operation every time the summary layer is called - neural networks can take advantage of the simple matrix mulitplication that leads to an equivalent expression ...
 
-![the single layer model](https://raw.githubusercontent.com/AskExplain/Interpretable-Neural-Net/main/properties.png)
+![the single layer properties](https://raw.githubusercontent.com/AskExplain/Interpretable-Neural-Net/main/properties.png)
 
 Notice that the latent components Z is now equivalent to X b which is equivalent to X b (b_transpose b).
 
