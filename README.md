@@ -1,10 +1,10 @@
 # Interpretable-Neural-Net
-Inspiration for a 1 layer interpretable neural net with a single linear mixed form layer for signal extraction
+Inspiration for a 1 layer interpretable neural net with a single linear form layer for signal extraction
 
 
 ## Some explanations
 
-The model below explains more about the idea - for a single linear mixed form layer, it is essentially the fixed part of the model, that is
+The model below explains more about the idea - for a single linear form layer, that is
 
 Y a = X b
 
@@ -16,7 +16,7 @@ However, given it is a neural network layer, the "layer model" only learns a dec
 ![the single layer model](https://raw.githubusercontent.com/AskExplain/Interpretable-Neural-Net/main/model.png)
 
 
-Essentially, linear mixed forms find a latent component Z, followed by a learnable filter set b
+Essentially, linear forms find a latent component Z, followed by a learnable filter set b
 
 Here, X b is equivalent to the latent component multiplied by the covariance of the filters b_transpose b
 
