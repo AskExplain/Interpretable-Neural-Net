@@ -1,6 +1,14 @@
 # Interpretable-Neural-Net
 Inspiration for a 1 layer interpretable neural net with a single linear form layer for signal extraction
 
+## Some results
+
+Here are two neural networks run on CIFAR10 with the VGG neural network (a traditional neural network found in the literature).
+
+One uses the single interpretable linear "summary" layer, and the other uses the standard "base" VGG non-linear sequence of layers.
+
+![vgg comparison](https://raw.githubusercontent.com/AskExplain/Interpretable-Neural-Net/main/vgg.png)
+
 
 ## Some explanations
 
@@ -41,5 +49,5 @@ There is a well and definite link between the linear expression of this model wi
 To see how, propose the following:
 
 
-![the single layer loss function](https://raw.githubusercontent.com/AskExplain/Interpretable-Neural-Net/main/nonlinear_property.png)
+![the linear and nonlinear relations](https://raw.githubusercontent.com/AskExplain/Interpretable-Neural-Net/main/nonlinear_property.png)
 
