@@ -4,16 +4,14 @@ Inspiration for a 1 layer interpretable neural net with a single linear form lay
 
 ## Some explanations
 
-The model below explains more about the idea - for a single linear form layer, that is
-
-Y = X b
+The model below explains more about the idea - for a single linear form layer
 
 Where Y are the label responses to be predicted while X is the observed data (e.g. convolutions applied to images)
 
 However, given it is a neural network layer, the "layer model" only learns a decomposition of X - in such a way that it fits the following properties:
 
 
-![the single layer model](https://raw.githubusercontent.com/AskExplain/Interpretable-Neural-Net/main/model.png)
+![the single layer model](https://raw.githubusercontent.com/AskExplain/Interpretable-Neural-Net/main/main_model.png)
 
 
 Essentially, linear forms find a latent component Z, followed by a learnable filter set b
