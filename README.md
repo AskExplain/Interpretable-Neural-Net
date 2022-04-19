@@ -6,7 +6,7 @@ Inspiration for a 1 layer interpretable neural net with a single linear form lay
 
 The model below explains more about the idea - for a single linear form layer, that is
 
-Y a = X b
+Y = X b
 
 Where Y are the label responses to be predicted while X is the observed data (e.g. convolutions applied to images)
 
@@ -34,4 +34,14 @@ The loss function given X, which here are the convoluted features along with the
 
 ![the single layer loss function](https://raw.githubusercontent.com/AskExplain/Interpretable-Neural-Net/main/loss_function.png)
 
+
+
+## One more property on linearity and non-linearity
+
+There is a well and definite link between the linear expression of this model with the non-linear expression of deep neural networks. 
+
+To see how, propose the following:
+
+
+![the single layer loss function](https://raw.githubusercontent.com/AskExplain/Interpretable-Neural-Net/main/nonlinear_property.png)
 
